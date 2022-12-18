@@ -1,0 +1,71 @@
+.App{
+  height: 100%;
+  width: 100vh;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+
+.calculator {
+
+  background-color: black;
+  color: white;
+  font-size: x-large;
+}
+
+.screen {
+  height: 100px;
+  padding: 4px;
+  width: 100%;
+  
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.history{
+  color: orange;
+  font-size: large;
+
+}
+
+.display {
+  font-size: 36px;
+
+}
+
+
+.key{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border: 1px solid white;
+  cursor: pointer
+}
+
+.key:hover{
+  border-color: black;
+  color: black;
+}
+
+.number{
+  background-color: gray;
+  color: white;
+}
+
+.operation {
+  background-color: lightseagreen;
+}
+
+.equals {
+  background-color: blue;
+}
+
+.clear {
+  background-color: brown;
+}
