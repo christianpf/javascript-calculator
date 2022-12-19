@@ -80,7 +80,7 @@ function App() {
           }
           break;
         default:
-          if(display == "0"){
+          if(display == "0" || history == "x" || history == "/"){
             setDisplay(key);
             setHistory(key);
           }else if(display == "x" || display == "/" || display == "+" || display == "-" || display == "--" ||
